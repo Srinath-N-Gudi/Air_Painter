@@ -3,11 +3,6 @@ import mediapipe as mp
 import time
 import os
 import numpy as np
-from tkinter import Tk
-from tkinter.messagebox import showinfo
-Tk().withdraw()
-showinfo("Credits", "This application was made by Srinath N Gudi")
-
 xp, yp = 0, 0
 
 def chech_fingers(i, m):
